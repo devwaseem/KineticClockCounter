@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75000AB825FCE11E002CED96 /* ClockHandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75000AB725FCE11E002CED96 /* ClockHandData.swift */; };
+		75000ABB25FD0DAA002CED96 /* TimerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75000ABA25FD0DAA002CED96 /* TimerInputView.swift */; };
+		75000ABE25FD1324002CED96 /* CounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75000ABD25FD1324002CED96 /* CounterManager.swift */; };
+		7521524425FCD09100678FF2 /* KineticClockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521524325FCD09100678FF2 /* KineticClockCell.swift */; };
 		752EC8EB25FCBDA2004F1446 /* KineticClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EC8EA25FCBDA2004F1446 /* KineticClockApp.swift */; };
 		752EC8ED25FCBDA2004F1446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EC8EC25FCBDA2004F1446 /* ContentView.swift */; };
 		752EC8EF25FCBDA4004F1446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752EC8EE25FCBDA4004F1446 /* Assets.xcassets */; };
 		752EC8F225FCBDA4004F1446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752EC8F125FCBDA4004F1446 /* Preview Assets.xcassets */; };
+		752EC8FF25FCBE39004F1446 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EC8FE25FCBE39004F1446 /* ClockView.swift */; };
+		752EC90325FCC064004F1446 /* Angle + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EC90225FCC064004F1446 /* Angle + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75000AB725FCE11E002CED96 /* ClockHandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockHandData.swift; sourceTree = "<group>"; };
+		75000ABA25FD0DAA002CED96 /* TimerInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerInputView.swift; sourceTree = "<group>"; };
+		75000ABD25FD1324002CED96 /* CounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterManager.swift; sourceTree = "<group>"; };
+		7521524325FCD09100678FF2 /* KineticClockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KineticClockCell.swift; sourceTree = "<group>"; };
 		752EC8E725FCBDA2004F1446 /* KineticClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KineticClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752EC8EA25FCBDA2004F1446 /* KineticClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KineticClockApp.swift; sourceTree = "<group>"; };
 		752EC8EC25FCBDA2004F1446 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		752EC8EE25FCBDA4004F1446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752EC8F125FCBDA4004F1446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		752EC8F325FCBDA4004F1446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752EC8FE25FCBE39004F1446 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		752EC90225FCC064004F1446 /* Angle + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Angle + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				752EC8EE25FCBDA4004F1446 /* Assets.xcassets */,
 				752EC8F325FCBDA4004F1446 /* Info.plist */,
 				752EC8F025FCBDA4004F1446 /* Preview Content */,
+				752EC8FE25FCBE39004F1446 /* ClockView.swift */,
+				752EC90225FCC064004F1446 /* Angle + Extensions.swift */,
+				7521524325FCD09100678FF2 /* KineticClockCell.swift */,
+				75000AB725FCE11E002CED96 /* ClockHandData.swift */,
+				75000ABA25FD0DAA002CED96 /* TimerInputView.swift */,
+				75000ABD25FD1324002CED96 /* CounterManager.swift */,
 			);
 			path = KineticClock;
 			sourceTree = "<group>";
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				752EC8ED25FCBDA2004F1446 /* ContentView.swift in Sources */,
+				75000AB825FCE11E002CED96 /* ClockHandData.swift in Sources */,
+				75000ABE25FD1324002CED96 /* CounterManager.swift in Sources */,
+				752EC8FF25FCBE39004F1446 /* ClockView.swift in Sources */,
 				752EC8EB25FCBDA2004F1446 /* KineticClockApp.swift in Sources */,
+				7521524425FCD09100678FF2 /* KineticClockCell.swift in Sources */,
+				752EC90325FCC064004F1446 /* Angle + Extensions.swift in Sources */,
+				75000ABB25FD0DAA002CED96 /* TimerInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

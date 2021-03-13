@@ -11,7 +11,7 @@ import SwiftUI
 struct KineticClockApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(counterManager: CounterManager())
         }
     }
 }
