@@ -28,7 +28,7 @@ class CounterManager: ObservableObject {
             seconds != "",
             let _mins = Int(minutes),
             let _secs = Int(seconds),
-            _mins < 99,
+            _mins <= 60,
             _secs <= 60
         else {
             return
@@ -57,7 +57,6 @@ class CounterManager: ObservableObject {
         self.cancellableTimer = Timer.publish(every: 1, on: RunLoop.main, in: RunLoop.Mode.common)
             .autoconnect()
             .sink { (date) in
-                print(self.timeLeft)
                 self.timeLeft -= 1
                 if self.timeLeft < 0 {
                     self.reset()

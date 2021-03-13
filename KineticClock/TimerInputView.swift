@@ -18,7 +18,7 @@ struct TimerInputView: View {
     
     var body: some View {
         HStack {
-            TextField("99", text: $minutesString)
+            TextField("60", text: $minutesString)
                 .keyboardType(.numberPad)
                 .multilineTextAlignment(.center)
                 .onReceive(Just(minutesString)) { newValue in
@@ -31,8 +31,8 @@ struct TimerInputView: View {
                         return
                     }
                     
-                    if number > 99 {
-                        self.minutesString = "99"
+                    if number > 60 {
+                        self.minutesString = "60"
                     }
                 }
                 .frame(maxWidth: 100)

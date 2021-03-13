@@ -32,11 +32,6 @@ struct ContentView: View {
                 VStack {
                     Spacer()
                     TimerInputView(minutesString: $minuteString, secondsString: $secondsString, isDisabled: counterManager.isTimerRunning)
-//                        .offset(x: counterManager.isTimerRunning ? geometry.size.width : 0)
-//                        .animation(.easeOut)
-//                        .onReceive(Just((minuteString, secondsString))) { newValue in
-//                            counterManager.setClock(minutes: newValue.0, seconds: newValue.1)
-//                        }
                     Button(action: {
                         if counterManager.isTimerRunning {
                             counterManager.reset()
